@@ -1,0 +1,13 @@
+/* line 7, /Users/russ/repos/animated-bird/source/stylesheets/main.scss */
+#bird_sprite {
+  position: absolute;
+  width: 85;
+  height: 85;
+  background: url("/images/twitter-bird-sprite.png") no-repeat 0 0; }
+
+/* line 14, /Users/russ/repos/animated-bird/source/stylesheets/main.scss */
+#cage {
+  position: relative;
+  margin: 16px auto;
+  width: 585px;
+  background: url("/images/bird-cage.png") no-repeat 0 0; }

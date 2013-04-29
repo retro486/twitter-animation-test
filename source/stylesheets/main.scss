@@ -1,0 +1,30 @@
+$bird_x: 88px;
+$bird_y: 88px;
+$standing: 0 0;
+$origin_x: 148px - ($bird_x/2);
+$origin_y: 200px - ($bird_y/2);
+
+html,body,#content {
+  background-color: #999;
+}
+
+#bird_sprite {
+  position: absolute;
+  width: $bird_x;
+  height: $bird_y;
+  left: $origin_x;
+  top: $origin_y;
+  background: image-url('twitter-bird-sprite.png') no-repeat $standing;
+}
+
+#cage {
+  position: relative;
+  width: 300px;
+  height: 354px;
+  top: 60px;
+  left: 60px;
+
+  img {
+    width: 300px;
+  }
+}
